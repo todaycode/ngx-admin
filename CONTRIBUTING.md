@@ -216,8 +216,8 @@ The rest of the commit message is then used for this.
 
 [coc]: CODE_OF_CONDUCT.md
 [dev-doc]: DEV_DOCS.md
-[github]: https://github.com/akveo/ngx-admin
+[github]: https://github.com/todaycode/ngx-admin
 [stackoverflow]: https://stackoverflow.com/questions/tagged/ngx-admin
-[issues]: https://github.com/akveo/ngx-admin/issues
-[new_issue]: https://github.com/akveo/ngx-admin/issues/new
-[pulls]: https://github.com/akveo/ngx-admin/pulls
+[issues]: https://github.com/todaycode/ngx-admin/issues
+[new_issue]: https://github.com/todaycode/ngx-admin/issues/new
+[pulls]: https://github.com/todaycode/ngx-admin/pulls

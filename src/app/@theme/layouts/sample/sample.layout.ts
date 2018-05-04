@@ -1,4 +1,4 @@
-import { Component, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import {
   NbMediaBreakpoint,
   NbMediaBreakpointsService,
@@ -29,8 +29,8 @@ import 'rxjs/add/operator/delay';
                    responsive
                    [right]="sidebar.id === 'right'">
         <nb-sidebar-header>
-          <a href="#" class="btn btn-hero-success main-btn">
-            <i class="ion ion-social-github"></i> <span>Support Us</span>
+          <a href="https://www.linkedin.com/in/alex-lim-software-developer/" class="btn btn-hero-success main-btn">
+            <i class="ion ion-ios-email"></i> <span>Contact Me</span>
           </a>
         </nb-sidebar-header>
         <ng-content select="nb-menu"></ng-content>
@@ -62,7 +62,7 @@ import 'rxjs/add/operator/delay';
     </nb-layout>
   `,
 })
-export class SampleLayoutComponent  implements OnDestroy {
+export class SampleLayoutComponent  implements OnInit, OnDestroy {
 
   subMenu: NbMenuItem[] = [
     {
@@ -135,6 +135,10 @@ export class SampleLayoutComponent  implements OnDestroy {
           this.sidebarService.collapse('menu-sidebar');
         }
       });
+  }
+
+  ngOnInit() {
+    this.themeService.changeTheme('default');
   }
 
   ngOnDestroy() {

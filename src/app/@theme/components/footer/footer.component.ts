@@ -6,10 +6,8 @@ import { Component } from '@angular/core';
   template: `
     <span class="created-by">Created with ♥ by <b><a href="https://www.linkedin.com/in/alex-lim-036250137/" target="_blank">Alex Lim</a></b> 2017</span>
     <div class="socials">
-      <a href="#" target="_blank" class="ion ion-social-github"></a>
-      <a href="#" target="_blank" class="ion ion-social-facebook"></a>
-      <a href="#" target="_blank" class="ion ion-social-twitter"></a>
-      <a href="#" target="_blank" class="ion ion-social-linkedin"></a>
+      <a target="_blank" class="ion ion-ios-email"><small>onetoday1030@gmail.com</small></a><br/>
+      <a target="_blank" class="ion ion-social-skype"><small>live:2a59fb153ba75842</small></a>
     </div>
   `,
 })
